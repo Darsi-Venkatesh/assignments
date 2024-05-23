@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Column Tag Example</title>
+    <style>
+        /* CSS for styling the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Column Tag Example</h2>
+
+<table>
+    <colgroup>
+        <col style="background-color: lightblue;">
+        <col span="2" style="background-color: lightgreen;">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>30</td>
+        <td>USA</td>
+    </tr>
+    <tr>
+        <td>Mary</td>
+        <td>25</td>
+        <td>Canada</td>
+    </tr>
+</table>
+
+</body>
+</html>

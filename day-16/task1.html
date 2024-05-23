@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            
+            height: 100vh;
+            width: 99vw;
+            position: relative;
+            overflow-y: scroll;
+        }
+        .top{
+            border: 1px solid white;
+            height: 9vh;
+            width: 99vw;
+            position: fixed;
+            top: 0%;
+            z-index: 2;
+            background-color: white;
+        }
+        .head{
+            position: absolute;
+            left: 50%;
+            top: 0%;
+        }
+        .icon{
+            position: absolute;
+            top: 32%;
+        }
+        .mail{
+            position: absolute;
+            right: 2%;
+        }
+        img{
+            height: 60vh;
+            width: 20vw;
+            z-index: 1;
+        }
+        .sandwich{
+            border: 1px solid white;
+            width: 20vw;
+        }
+        figure{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <ion-icon class="icon" name="menu-outline" style="font-size: xx-large;"></ion-icon>
+            <h1 class="head"><b>My food</b></h1>
+            <h2 class="mail"><b>mail</b></h2>
+        </div>
+        <div class="body">
+            <div>
+                <figure>
+                    <img src="./1.jpeg" alt="">
+                    <figcaption class="sandwich"><h2>The Perfect Sandwich, A Real NYC Classic</h2></figcaption>
+                </figure>
+                <figure>
+                    <img src="./2.jpeg" alt="">
+                    <figcaption>kjbcskjf</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

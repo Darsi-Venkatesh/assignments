@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        border: 2px solid;
+        height: 91vh;
+        width: 96vw;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+      }
+      .top {
+        border: 1px solid red;
+        height: 10vh;
+        width: 100%;
+        background-image: linear-gradient(indigo, blue, green, orange, red);
+        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+      }
+      .body {
+        border: 1px solid blue;
+        width: 95vw;
+        height: 60vh;
+        display: flex;
+        padding: 7px;
+        margin-top: 1%;
+      }
+      .bodyslide {
+        border: 1px solid rebeccapurple;
+        height: 60vh;
+        width: 20vh;
+        background-color: aqua;
+      }
+      .bodymain {
+        border: 1px solid;
+        width: 90%;
+        display: flex;
+        padding: 5px;
+        gap: 5px;
+        display: inline;
+      }
+      .m1{
+        border: 1px solid indigo;
+        height: 26vh;
+        width: 85vw;
+        display: flex;
+        gap: 4px;
+        padding: 3px;
+      }
+      .m2{
+        border: 1px solid;
+        height: 30vh;
+        width: 85vw;
+        margin-top: 5px;
+        display: flex;
+        gap: 4px;
+        padding: 3px;
+      }
+      .col{
+        background-image: conic-gradient(blue,white,green);
+        height: 100%;
+        width: 100%;
+        border-radius: 30%;
+      }
+      .row{
+        background-color: green;
+        animation-name: hello;
+        animation-duration: 5s;
+        height: 100%;
+        width: 30vw;
+        border-radius: 30%;
+        
+      }
+      @keyframes hello {
+        from  {background-color: blue;}
+        to  {background-color: white;}      }
+      .foot {
+        border: 2px solid green;
+        height: 20vh;
+        width: 95.5vw;
+        background-color: red;
+        margin-top: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top">
+        <h1 style="color: white;">Nav bar</h1>
+      </div>
+      <div class="body">
+        <div class="bodyslide"></div>
+        <div class="bodymain">
+          <div class="m1">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+          <div class="m2">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+      <div class="foot"></div>
+    </div>
+  </body>
+</html>

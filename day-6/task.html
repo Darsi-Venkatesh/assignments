@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<fieldset>
+    <legend><h1>Registration form</h1></legend>
+<body background="skyblue">
+    
+    <form>
+        <label for="fname">First Name*</label>
+        <input type="text" name="First Name" id="fname" required><br><br>
+        <label for="mdname">Middle Name:</label>
+        <input type="text" name="Middle Name" id="mdname"><br><br>
+        <label for="lname">Last Name*</label>
+        <input type="text" name="Last Name" id="lname" required><br><br>
+        <label for="course">course:</label>
+        <select name="courses" id="course" multiple required>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="IT">IT</option>
+            <option value="AI">AI</option>
+            <option value="ML">ML</option>
+    
+        </select><br><br>
+        <label for="ph">Phone</label>
+        <input type="text" name="country code" value="+91" size="2" id="ph">
+        <input type="tel" name="phone" size="10" id="ph" pattern="(?=.*[0-9]).{10}" required><br><br>
+        <label for="add">Address:</label>
+        <textarea name="Address" id="add" cols="90" rows="20" required></textarea><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="text" name="Email" id="email"><br><br>
+        <label for="pswd">Password:</label>
+        <input type="text" name="password" id="pswd"><br><br>
+        <label for="Re">Retype Password:</label>
+        <input type="text" name="Retype password" id="Re"><br><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">other</label><br><br>
+        <label for="">languages you want:</label><br><br>
+        
+        
+        <input type="checkbox" name="language1" id="lang1" >
+        <label for="lang1">Telugu</label>
+      
+        
+        <input type="checkbox" name="laguage1" id="lang2" >
+        <label for="lang2">Hindi</label>
+        
+        
+        <input type="checkbox" name="language2" id="lang3" >
+        <label for="lang3">English</label><br><br>
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="file" >
+       
+        <br><br><label for="">click for submission:</label>
+        <input type="submit">
+    </form>
+  </fieldset>
+    
+</body>
+</html>

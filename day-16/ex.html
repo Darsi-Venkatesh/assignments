@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        /*[attribute~="class"]*/
+        [target~="head"]{
+            background-color: aqua;
+        }
+        /*[attribute|="class"]*/
+        [class|="simi"]{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="head">hello</h1>
+    <p class="">hello</p>
+    <!-- if we want to select only one class -->
+    <p class="head">hello</p>
+    <p class="">hello</p>
+    <!-- "~" we will denote it with space -->
+    <a target="head section">hello</a>
+    <a target="section head">hello</a><br>
+    <a target="he">hello</a>
+    <!-- "|" we will denote with "-" -->
+    <h1 class="simi-head">hlo</h1>
+    <h1 class="head-simi">hlo</h1>
+    <h1 class="simi-top">hlo</h1>
+    "^" 
+</body>
+</html>
