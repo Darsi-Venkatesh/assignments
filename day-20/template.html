@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .nav{
+            border: 2px solid;
+            width: 120px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: dimgray;
+            color: white;
+            position: fixed;
+            flex-wrap: wrap;
+        }
+        .home{
+            width: 100%;
+            height: 100px;
+        }
+        .style{
+            height: 100px;
+            width: 100%;
+        }
+        a{
+            width: 100%;
+        }
+        .icon1:hover{
+            background-color: black;
+            width: 100%;
+        }
+        .body{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="main">
+    <div class="nav">
+        <img src="../images/smoke.jpg" alt="" width="100%">
+        <div class="icon1">
+        <ion-icon class="home" name="home-outline"></ion-icon>
+        <div><a style="letter-spacing: 4px;">HOME</a></div>
+        </div>
+        <div class="icon1">
+        <ion-icon class="home" name="person-outline"></ion-icon>
+        <div><a style="letter-spacing: 4px;">ABOUT</a></div>
+        </div>
+        <div class="icon1">
+        <ion-icon class="home" name="eye-outline"></ion-icon>
+        <div><a style="letter-spacing: 4px;">PHOTOS</a></div>
+        </div>
+        <div class="icon1">
+        <ion-icon class="home" name="mail-outline"></ion-icon>
+        <div><a style="letter-spacing: 4px;">CONTACT</a></div>
+        </div>
+    </div>
+    <div class="body">
+        <img width="100%" src="../images/man_smoke.jpg" alt="">
+    </div>
+    </div>
+</body>
+</html>

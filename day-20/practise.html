@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            overflow-x: hidden;
+            display: flex;
+            border: 2px solid;
+        }
+        .main .body{
+            margin-left: 136px;
+            align-self: center;
+        }
+        .nav{
+            border: 2px solid;
+            height: 100vh;
+            width: 131px;
+            background-color: darkgray;
+            position: fixed;
+            display: block;
+        }
+        .icon{
+            margin: 55px;
+        }
+        p{
+            letter-spacing: 4px;
+        }
+        .hover:hover{
+            background-color: black;
+            width: 100%;
+            color: white;
+        }
+        .body{
+            border: 2px solid red;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+        .man{
+            margin-right: 100px;
+            
+            display: flex;
+            background-color: black;
+        }
+    </style>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <a><img width="130px" src="../images/smoke.jpg" alt=""></a>
+            <div class="hover">
+            <a class="icon"><ion-icon style="font-size: xx-large;" name="home-outline"></ion-icon></a>
+            <p style="text-align: center;">HOME</p>
+            </div>
+            <div class="hover">
+            <a class="icon"><ion-icon style="font-size: xx-large;" name="person-outline"></ion-icon></a>
+            <p style="text-align: center;">ABOUT</p>
+            </div>
+            <div class="hover">
+            <a class="icon"><ion-icon style="font-size: xx-large;" name="eye-outline"></ion-icon></a>
+            <p style="text-align: center;">PHOTOS</p>
+            </div>
+            <div class="hover">
+            <a class="icon"><ion-icon style="font-size: xx-large;" name="mail-outline"></ion-icon></a>
+            <p style="text-align: center;">CONTACT</p>
+            </div>
+        </div>
+        <div class="body">
+            <div class="man">
+                <img src="../images/man_smoke.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

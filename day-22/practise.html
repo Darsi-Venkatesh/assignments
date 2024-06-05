@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-auto-rows: 150px;
+        grid-gap: 5px;
+        justify-content: center;
+      }
+      .cd{
+        background-color: aqua;
+      }
+      .cd5{
+        grid-area: 2/2/4/4;
+      }
+      .body {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        grid-auto-rows: 100px;
+        grid-gap: 5px;
+        margin-top: 20px;
+        justify-content: center;
+      }
+      .sec2 {
+        background-color: aqua;
+        display: grid;
+      }
+      .se1 {
+        grid-area: 1/1/4/1;
+      }
+      .se9 {
+        grid-area: 1/2/1/4;
+      }
+      .se6 {
+        grid-area: 2/4/4/4;
+      }
+      .foot{
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100px 200px 50px 50px 100px 30px;
+        grid-gap: 10px;
+        height: 100%;
+        grid-template-rows: 100px 100px;
+      }
+      .grid{
+        background-color: chartreuse;
+      }
+    .grid8{
+        grid-area: 2/2/2/4;
+      }
+    .grid4{
+        grid-area: 1/4/3;
+        background-color: aqua;
+      }
+    .grid5{
+        grid-area: 1/5/3;
+        background-color: blue;
+      }
+    .grid6{
+        grid-area: 1/6/3;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="cd">1</div>
+        <div style="background-color: yellow;" class="cd">2</div>
+        <div style="background-color: blueviolet;" class="cd">3</div>
+        <div style="background-color: crimson;" class="cd">4</div>
+        <div style="background-color: green;" class="cd cd5">5</div>
+        <div class="cd">6</div>
+    </div>
+    <div class="body">
+      <div style="background-color: green;" class="sec2 se1">1</div>
+      <div style="background-color: green;" class="sec2 se9">2</div>
+      <div style="background-color: red;" class="sec2 se3">3</div>
+      <div style="background-color: yellow;" class="sec2 se4">4</div>
+      <div style="background-color: red;" class="sec2 se5">5</div>
+      <div style="background-color: green;" class="sec2 se6">6</div>
+      <div style="background-color: red;" class="sec2 se7">7</div>
+      <div style="background-color: yellow;" class="sec2 se8">8</div>
+    </div>
+    <div class="foot">
+        <div style="background-color: violet;" class="grid">1</div>
+        <div style="background-color: aqua;" class="grid">2</div>
+        <div style="background-color: green;" class="grid">3</div>
+        <div class="grid grid4">4</div>
+        <div class="grid grid5">5</div>
+        <div class="grid grid6">6</div>
+        <div style="background-color: orangered;" class="grid">7</div>
+        <div style="background-color: violet;" class="grid grid8">8</div>
+    </div>
+  </body>
+</html>

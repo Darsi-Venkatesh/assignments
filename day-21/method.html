@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --primary: blue;
+        --secondary: green;
+      }
+      h1 {
+        color: var(--secondary);
+      }
+      p::first-line{
+        background-color: aqua;
+      }
+      p::first-letter{
+        color: red;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+      }
+      p::selection{
+        background-color: red;
+      }
+      p::before{
+        content: (hello);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hello</h1>
+    <h1>print</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+       adipisci minus officia itaque illo deserunt, quas suscipit aperiam
+       voluptatem, tempore quos dolor temporibus! Molestiae officiis omnis error.
+       Corrupti, natus molestias.
+    </p>
+  </body>
+</html>

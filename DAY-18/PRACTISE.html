@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     
+      .nav{
+        border: 2px solid ;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        position:sticky ;
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        overflow: hidden;
+        background-color: black;
+        margin: 1px;
+        z-index: 2;
+      }
+      .navbar{
+        color: white;
+      }
+      body{
+        margin-left: 0%;
+        margin-right: 0;
+        overflow-y: scroll;
+        position: sticky;
+        z-index: 1;
+      }
+      .body {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .cafe {
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+        margin-top: 30px;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .center p {
+        width: 30vw;
+      }
+      .img1 {
+        border: 2px solid black;
+      }
+      .second {
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .second .secimg {
+        width: 50vw;
+      }
+      h2 {
+        align-self: center;
+      }
+      .order{
+        display: flex;
+        justify-content: center;
+      }
+      .card{
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .card .eat{
+        width: 60vw;
+        justify-content: center;
+      }
+      .eat{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+      }
+      .hello{
+        justify-content: flex-start;
+      }
+      .third{
+        display: flex;
+        width: 500px;
+        align-self: center;
+        margin: 30px;
+      }
+      .menu2{
+        color: white;
+        width: 150px;
+        display: flex;
+        align-self: center;
+        margin-top: 30px;
+      }
+      .name{
+        width: 400px;
+        height: 70px;
+        margin: 10px;
+      }
+      .reserve{
+        align-self: center;
+        margin-bottom: 30px;
+      }
+      .send{
+        margin-right: 210px;
+        background-color: black;
+        color: white;
+      }
+      .send:hover{
+        background-color: cadetblue;
+      }
+      .navbar:hover{
+        background-color: cadetblue;
+      }
+      .open{
+        margin-top: -30px;
+        width: 150px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+        <div class="nav">
+            <a class="navbar">HOME</a>
+            <a class="navbar">ABOUT</a>
+            <a class="navbar">MENU</a>
+            <a class="navbar">CALL</a>
+        </div>
+      <div class="body">
+        <img style="align-self: center;" src="../images/img.jpeg" alt=""/>        <a class="cafe"><b style="background-color: black; color: white">ABOUT THE CAFE</b></a>
+        <div class="center">
+          <p>
+            The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. In addition to our full espresso and brew bar menu, we
+            serve fresh made-to-order breakfast and lunch sandwiches, as well as
+            a selection of sides and salads and other good stuff. "Use products
+            from nature for what it's worth - but never too early, nor too
+            late." Fresh is the new sweet. Chef, Coffeeist and Owner: Liam Brown
+          </p>
+        </div>
+        <div class="second">
+          <img class="secimg" src="../images/coffeeshop.jpeg" alt="" />
+        </div>
+        <div>
+          <p style="text-align: center">
+            <b>Opening hours:</b> everyday from 6am to 5pm.
+          </p>
+          <p style="text-align: center">
+            <b>Address:</b> 15 Adr street, 5015, NY
+          </p>
+        </div>
+        <h2 class="anchor"style="text-align: center; background-color: black; color: white">
+          THE MENU
+        </h2>
+        <div class="order">
+        <div style="flex-wrap: wrap;" class="card">
+            <div style="align-self: center;" class="eat">
+                <a class="hello"><b>Bread Basket</b></a>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <a><b>Honey Almond Granola with Fruits</b></a>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <a><b>Belgian Waffle</b></a>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                <a><b>Scrambled eggs</b></a>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <a><b>Blueberry Pancakes</b></a>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+        </div>
+        </div>
+        <div class="third">
+        <img src="../images/coffeehouse2.jpg" alt="">
+        </div>
+        <a class="menu2" style="background-color: black; color:white" >WHERE TO FIND US</a><br><br>
+        <a style="align-self: center;"><h2>Find us at some address at some place.</h2></a>
+        <img style="margin-top: 30px; align-self:center" src="../images/map.jpg" alt="">
+        <p><span style="background-color: black; color:white">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <a style="align-self: center;" class="reserve"><b>Reserve</b> a table, ask for today's special or just send us a message:</a>
+        <input class="name" style="align-self: center;" type="name" placeholder="NAME">
+        <input class="name" style="align-self: center;" type="name" placeholder="How Many People">
+        <input class="name" style="align-self: center;" type="date">
+        <input class="name" style="align-self: center;" type="name" placeholder="Message \ Special Requirements">
+        <h2 class="send">SEND MESSAGE</h2>
+    </div>
+  </body>
+</html>
